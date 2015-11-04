@@ -1,0 +1,10 @@
+dependencies {
+	// Logging
+	compile "commons-logging:commons-logging:1.2"
+}
+
+springBoot {
+	mainClass = 'org.lukosan.salix.Application'
+}
+
+bintray.pkg.version.desc = 'Salix security service module'
